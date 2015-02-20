@@ -1,0 +1,33 @@
+<MercatorMapAudit StartTime="06:52:11 November 18, 2013">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(268)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="2.9816" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'\\Plantserver\edi\EDI\HD\PO\HomeDepotPO.mmc' -AED -TIO -IE1S112710 %lt;data%gt; -OF1 20131118065211_850.xml</CommandLine>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="112710"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>06:52:11 November 18, 2013</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="432110"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>\\Plantserver\edi\EDI\HD\PO\20131118065211_850.xml</Settings>
+   <TimeStamp>06:52:14 November 18, 2013</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="\\Plantserver\edi\EDI\HD\PO\HomeDepotPO.I01" TimeStamp="06:52:14 November 18, 2013" bytes="823926"/>
+<outputarea card="1"   Path="\\Plantserver\edi\EDI\HD\PO\HomeDepotPO.O01" TimeStamp="06:52:14 November 18, 2013" bytes="1114112"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>

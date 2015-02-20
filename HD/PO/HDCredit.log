@@ -1,0 +1,33 @@
+<MercatorMapAudit StartTime="10:10:29 November 17, 2013">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(268)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="2.8667" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'\\Plantserver\edi\EDI\HD\PO\HDCredit.mmc' -AED -TIO -IE1S158289 %lt;data%gt; -OF1 20131117101029_812.xml</CommandLine>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="158289"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>10:10:29 November 17, 2013</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="43918"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>\\Plantserver\edi\EDI\HD\PO\20131117101029_812.xml</Settings>
+   <TimeStamp>10:10:32 November 17, 2013</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="\\Plantserver\edi\EDI\HD\PO\HDCredit.I01" TimeStamp="10:10:32 November 17, 2013" bytes="1220889"/>
+<outputarea card="1"   Path="\\Plantserver\edi\EDI\HD\PO\HDCredit.O01" TimeStamp="10:10:32 November 17, 2013" bytes="131072"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>
